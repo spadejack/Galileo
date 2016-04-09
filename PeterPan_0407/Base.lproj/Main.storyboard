@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="91f-2e-zIo">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Sakura-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PeterPan_0407" customModuleProvider="target" sceneMemberID="viewController">
@@ -14,30 +14,159 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic" highlightedImage="pic" translatesAutoresizingMaskIntoConstraints="NO" id="8pF-TH-qpe">
+                                <rect key="frame" x="20" y="192" width="280" height="184"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pn-ge-Anf">
-                                <rect key="frame" x="85" y="307" width="205" height="54"/>
-                                <state key="normal" title="我是巴疼">
+                                <rect key="frame" x="58" y="445" width="205" height="54"/>
+                                <state key="normal" title="See More ?">
                                     <color key="titleColor" red="0.31985201842458189" green="0.5" blue="0.09143673345337916" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="highlighted" title="我被點選了"/>
+                                <state key="selected" title="Let's go"/>
+                                <state key="highlighted" title="Let's go"/>
+                                <connections>
+                                    <segue destination="mfq-yj-WoS" kind="push" id="Dp3-2m-U31"/>
+                                </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic" highlightedImage="pic" translatesAutoresizingMaskIntoConstraints="NO" id="8pF-TH-qpe">
-                                <rect key="frame" x="20" y="28" width="335" height="184"/>
-                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.89780766186543559" green="0.81720569594738868" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationItem key="navigationItem" title="Sakura" id="0dR-mc-DjA"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="262.5" y="309.5"/>
+            <point key="canvasLocation" x="197" y="229"/>
+        </scene>
+        <!--Bright-->
+        <scene sceneID="yjc-jC-EuA">
+            <objects>
+                <viewController id="1q5-Kd-8Kx" userLabel="Bright" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o3S-Ss-pIU"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Y1-cm-EEy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="io8-yQ-h5A">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sakura" translatesAutoresizingMaskIntoConstraints="NO" id="vGA-VD-Qsh">
+                                <rect key="frame" x="20" y="194" width="280" height="180"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bright" id="QVN-Rd-ikt" userLabel="Bright"/>
+                    <navigationItem key="navigationItem" id="mMc-yy-CZe"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gFm-lA-F1L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1251" y="1230"/>
+        </scene>
+        <!--Snow-->
+        <scene sceneID="pZC-hN-TVU">
+            <objects>
+                <viewController title="Snow" id="XK5-t5-3Ne" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8NH-rE-c5M"/>
+                        <viewControllerLayoutGuide type="bottom" id="ho6-7w-Icc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sfi-2E-cMm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Snow" translatesAutoresizingMaskIntoConstraints="NO" id="Vex-5A-OJd">
+                                <rect key="frame" x="17" y="152" width="286" height="264"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Snow" id="R91-ZS-kOL" userLabel="Snow"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gxP-wh-of1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1251" y="582"/>
+        </scene>
+        <!--Night-->
+        <scene sceneID="RhP-FQ-3Vh">
+            <objects>
+                <viewController id="hji-VY-Ddb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ALa-z2-0X3"/>
+                        <viewControllerLayoutGuide type="bottom" id="2DX-Rw-pQZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nib-bQ-YI9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Night" translatesAutoresizingMaskIntoConstraints="NO" id="3fH-m0-bWQ">
+                                <rect key="frame" x="20" y="152" width="280" height="264"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Night" id="bsx-vz-Be4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Far-rf-xgf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1251" y="-90"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="IeE-2n-pZC">
+            <objects>
+                <tabBarController id="mfq-yj-WoS" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="woB-OQ-A2D"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="FzJ-GU-5y3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="hji-VY-Ddb" kind="relationship" relationship="viewControllers" id="yHd-DC-Vgb"/>
+                        <segue destination="XK5-t5-3Ne" kind="relationship" relationship="viewControllers" id="7ZB-2E-wTK"/>
+                        <segue destination="1q5-Kd-8Kx" kind="relationship" relationship="viewControllers" id="7hv-LT-Fge"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rdl-59-jto" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="695" y="229"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oIs-dF-dqi">
+            <objects>
+                <navigationController id="91f-2e-zIo" sceneMemberID="viewController">
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="c0O-bz-HRu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="wD6-Gm-cYK">
+                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="LEB-HK-Q9Y"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dOi-kc-TyV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-301" y="229"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Night" width="155" height="81"/>
+        <image name="Snow" width="137" height="91"/>
         <image name="pic" width="480" height="480"/>
+        <image name="sakura" width="138" height="91"/>
     </resources>
 </document>

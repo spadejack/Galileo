@@ -397,6 +397,7 @@
 				3A3826041CB67D8200FEEEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A3826051CB67D8200FEEEEF /* Build configuration list for PBXNativeTarget "PeterPan_0407UITests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +406,7 @@
 				3A3826071CB67D8200FEEEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
