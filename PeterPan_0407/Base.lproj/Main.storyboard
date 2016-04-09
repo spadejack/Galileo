@@ -20,17 +20,16 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic" highlightedImage="pic" translatesAutoresizingMaskIntoConstraints="NO" id="8pF-TH-qpe">
                                 <rect key="frame" x="20" y="192" width="280" height="184"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pn-ge-Anf">
-                                <rect key="frame" x="58" y="445" width="205" height="54"/>
-                                <state key="normal" title="See More ?">
-                                    <color key="titleColor" red="0.31985201842458189" green="0.5" blue="0.09143673345337916" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="selected" title="Let's go"/>
-                                <state key="highlighted" title="Let's go"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKX-3f-CBC">
+                                <rect key="frame" x="94" y="413" width="133" height="84"/>
+                                <state key="normal" title="See More ?"/>
                                 <connections>
-                                    <segue destination="mfq-yj-WoS" kind="push" id="Dp3-2m-U31"/>
+                                    <segue destination="mfq-yj-WoS" kind="push" id="ghY-eH-YIN"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button" translatesAutoresizingMaskIntoConstraints="NO" id="R13-bx-PmO">
+                                <rect key="frame" x="94" y="413" width="133" height="58"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -60,7 +59,7 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Bright" id="QVN-Rd-ikt" userLabel="Bright"/>
-                    <navigationItem key="navigationItem" id="mMc-yy-CZe"/>
+                    <navigationItem key="navigationItem" title="Bright" id="mMc-yy-CZe"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
@@ -166,6 +165,7 @@
     <resources>
         <image name="Night" width="155" height="81"/>
         <image name="Snow" width="137" height="91"/>
+        <image name="button" width="90" height="90"/>
         <image name="pic" width="480" height="480"/>
         <image name="sakura" width="138" height="91"/>
     </resources>

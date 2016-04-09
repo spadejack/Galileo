@@ -13,6 +13,7 @@
 		3A3825F01CB67D8100FEEEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3825EF1CB67D8100FEEEEF /* Assets.xcassets */; };
 		3A3825F31CB67D8100FEEEEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3825F11CB67D8100FEEEEF /* LaunchScreen.storyboard */; };
 		3A3825FE1CB67D8200FEEEEF /* PeterPan_0407UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3825FD1CB67D8200FEEEEF /* PeterPan_0407UITests.swift */; };
+		3A3826111CB95E8C00FEEEEF /* 螢幕快照 2016-04-07 20.16.07_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3826101CB95E8C00FEEEEF /* 螢幕快照 2016-04-07 20.16.07_1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3A3825F91CB67D8200FEEEEF /* PeterPan_0407UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeterPan_0407UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3825FD1CB67D8200FEEEEF /* PeterPan_0407UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeterPan_0407UITests.swift; sourceTree = "<group>"; };
 		3A3825FF1CB67D8200FEEEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3826101CB95E8C00FEEEEF /* 螢幕快照 2016-04-07 20.16.07_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "螢幕快照 2016-04-07 20.16.07_1.png"; path = "../../../../../../Desktop/螢幕快照 2016-04-07 20.16.07_1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				3A3825EA1CB67D8100FEEEEF /* ViewController.swift */,
 				3A3825EC1CB67D8100FEEEEF /* Main.storyboard */,
 				3A3825EF1CB67D8100FEEEEF /* Assets.xcassets */,
+				3A3826101CB95E8C00FEEEEF /* 螢幕快照 2016-04-07 20.16.07_1.png */,
 				3A3825F11CB67D8100FEEEEF /* LaunchScreen.storyboard */,
 				3A3825F41CB67D8100FEEEEF /* Info.plist */,
 			);
@@ -178,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3826111CB95E8C00FEEEEF /* 螢幕快照 2016-04-07 20.16.07_1.png in Resources */,
 				3A3825F31CB67D8100FEEEEF /* LaunchScreen.storyboard in Resources */,
 				3A3825F01CB67D8100FEEEEF /* Assets.xcassets in Resources */,
 				3A3825EE1CB67D8100FEEEEF /* Main.storyboard in Resources */,
